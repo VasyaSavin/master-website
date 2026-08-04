@@ -17,14 +17,13 @@ const gaId = 'G-XXXXXXXXXX';   // ID Google Analytics 4
 <noscript><div><img src="https://mc.yandex.ru/watch/111018655" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
-<!-- Google Analytics 4 -->
-<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
-<script is:inline define:vars={{gaId}}>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', gaId);
-</script>
+<!-- Google Tag Manager -->
+<script type="text/javascript" is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WMZDWBK8');</script>
+<!-- End Google Tag Manager -->
 
 <!-- Отслеживание кликов по телефону и WhatsApp -->
 <script is:inline>
